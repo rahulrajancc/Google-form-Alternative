@@ -1,0 +1,12 @@
+:root{
+   --bg-color:#FAFAFB;
+}
+.App_container{
+  display: flex;
+  /* gap: 2rem; */
+  background-color: var(--bg-color);
+
+}
+.Right_side{
+  width: -webkit-fill-available;
+}

@@ -1,0 +1,79 @@
+:root{
+    --bg-color:white;
+    --color:black;
+    --container-width:97%;
+    --container-height:64px;
+}
+.Nav_container{
+    background-color: var(--bg-color);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: var(--container-width);
+    height: var(--container-height);
+    align-self:center;
+    border: 12px solid white;
+}
+.Nav_logo img{
+    width: 4rem;
+    height: auto;
+}
+.profile_section{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+.Nav-profile-section1{
+    width: 1.5rem;
+}.Nav-profile-section2{
+    width: 1.5rem;
+}
+.Nav-profile-section3{
+    width: 3rem;
+    border-radius: 50%;
+    /* padding: 0px 12px; */
+}
+.Nav_link a{
+    color: black;
+    text-decoration: none;
+    padding: 0px 15px;
+  
+    
+}
+.Nav_link a:hover{
+    color: blueviolet;
+}
+
+
+
+
+
+
+.Sidenav_container{
+    padding-top: 1rem;
+    border: 1px solid #DEE1E6;
+}
+.Side_nav_top img{
+    width: 1.5rem;
+}
+.Side_nav_top{
+    /* align-items: center; */
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    gap: 1.5rem;
+    text-align: center;
+    width: max-content;
+    min-height: 100vh;
+    padding:0px 1rem;
+
+}
+.Side_nav_top div {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    align-items: center;
+}
