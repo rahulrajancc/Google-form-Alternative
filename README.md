@@ -1,73 +1,141 @@
-# Getting Started with Create React App
+# Google Form Alternative (QForm)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A modern Google Forms alternative built with **React** that allows users to create, manage, and analyze online forms through an intuitive drag-and-drop interface.
 
-## Available Scripts
+## ✨ Features
 
-In the project directory, you can run:
+* 📝 Create custom forms
+* 🎯 Drag-and-drop form builder
+* 📋 Multiple question types
+* 📊 Response dashboard
+* 📈 Response analytics with charts
+* 🔐 User authentication
+* ☁️ Firebase integration
+* 🗄️ Supabase support
+* 📱 Responsive design
+* ⚡ Fast and modern React UI
 
-### `npm start`
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 🛠️ Tech Stack
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+* React 19
+* React Router
+* Firebase
+* Supabase
+* Axios
+* Recharts
+* DnD Kit (Drag & Drop)
 
-### `npm test`
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 📁 Project Structure
 
-### `npm run build`
+```text
+src/
+├── comp/
+│   ├── pages/
+│   │   ├── Dashboard.jsx
+│   │   ├── FormBuilder.jsx
+│   │   ├── Forms.jsx
+│   │   ├── Responses.jsx
+│   │   └── new.jsx
+│   ├── ui/
+│   ├── images/
+│   └── styles/
+├── firebase.js
+├── supabaseClient.js
+└── App.js
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+---
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 🚀 Getting Started
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Clone the repository
 
-### `npm run eject`
+```bash
+git clone https://github.com/rahulrajancc/Google-form-Alternative.git
+cd Google-form-Alternative
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Install dependencies
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```bash
+npm install
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### Start the development server
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+```bash
+npm start
+```
 
-## Learn More
+The application will be available at:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```
+http://localhost:3000
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+---
 
-### Code Splitting
+## 🔑 Environment Variables
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Create a `.env` file in the project root.
 
-### Analyzing the Bundle Size
+```env
+VITE_OPENROUTER_API_KEY=your_openrouter_api_key
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+> **Important:** Never commit API keys or secrets to GitHub. Add `.env` to your `.gitignore`.
 
-### Making a Progressive Web App
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## 📦 Build for Production
 
-### Advanced Configuration
+```bash
+npm run build
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+---
 
-### Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-### `npm run build` fails to minify
+## 🤝 Contributing
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-# Google-form-Alternative
-# Google-form-Alternative
-# Google-form-Alternative
+Contributions are welcome.
+
+1. Fork the repository
+2. Create a new branch
+
+```bash
+git checkout -b feature-name
+```
+
+3. Commit your changes
+
+```bash
+git commit -m "Add new feature"
+```
+
+4. Push to your branch
+
+```bash
+git push origin feature-name
+```
+
+5. Open a Pull Request
+
+---
+
+## 📄 License
+
+This project is licensed under the MIT License.
+
+---
+
+## 👨‍💻 Author
+
+**Rahul Rajan**
+
+GitHub: https://github.com/rahulrajancc
